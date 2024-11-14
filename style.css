@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10px;
+}
+h1, h2, p {
+	line-height: 1.5;
+}
+
+#okayButton{
+	margin: 20px;
+	padding: 10px 30px;
+	border-radius: 8px;
+	border-color: grey;
+	background: rgb(27, 27, 22);
+	color:white;
+	cursor: pointer;
+	&:hover{
+		background: #fff;
+		color: rgb(27, 27, 22);
+	}
+}
+
+#greetingsForTheCurious {
+	margin: 20px;
+	display: block;
+
+	&.hidden {
+		display: none;
+	}
+}
